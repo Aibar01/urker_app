@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+    <!--================Total container Area =================-->
+    <div class="container main_container">
+        <div class="content_inner_bg row m0">
+            <section class="about_person_area pad" id="about">
+                <div class="row">
+                    {% for employee in employees %}
+                    <div class="col-md-4 col-sm-6">
+                        <!-- Card widget -->
+                        <div class="card">
+                          <div class="card-face face-1">
+                              <a href="{% url 'employee' employee.id %}"><h2 class="card-body">{{ employee.zero_id }}</h2></a>
+                              <a href="{% url 'employee' employee.id %}"><div class="card-face__avatar">{% if employee.image %} <img src="{{ employee.image.url }}" draggable="false" width="300" height="400"/> {% endif %}</div></a>
+                              <a href="{% url 'employee' employee.id %}"><h3 class="card-face__title">{{ employee.name }} {{ employee.surname }}</h3></a>
+                               <div class="person_information">
+                                <ul>
+                                    <li>Position: {{ employee.position }}</li>
+                                    <li>Work experience time: {{ employee.hire_date|timesince }}</li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
