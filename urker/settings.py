@@ -64,12 +64,11 @@ WSGI_APPLICATION = 'urker.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'urker-server',
-        'USER': 'aibar',
+        'NAME': 'urker_db',
+        'USER': 'urker_admin',
         'PASSWORD': 'A4655462340a',
         'HOST': 'localhost',
-        'PORT': '5432'
-                '',
+        'PORT': '',
     }
 }
 

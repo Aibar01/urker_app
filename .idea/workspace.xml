@@ -35,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/urker/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="345">
+              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -125,6 +125,11 @@
               <item name="urker" type="b2602c69:ProjectViewProjectNode" />
               <item name="urker" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="urker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urker" type="462c0819:PsiDirectoryNode" />
+              <item name="urker" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -208,18 +213,18 @@
       <workItem from="1561998317476" duration="33392000" />
       <workItem from="1562146367986" duration="10398000" />
       <workItem from="1562174998914" duration="1140000" />
-      <workItem from="1562241446335" duration="4295000" />
+      <workItem from="1562241446335" duration="4613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126263000" />
+    <option name="totallyTimeSpent" value="126581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1861" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.2661157" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.2661157" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5010799" side_tool="true" weight="0.25785124" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -233,7 +238,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008264" side_tool="true" weight="0.40172786" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49917355" visible="true" weight="0.40064794" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49917355" visible="true" weight="0.40064794" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3297414" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -463,8 +468,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/urker/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="345">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
